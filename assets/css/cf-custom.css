@@ -1,0 +1,96 @@
+/* Caldera Forms Styles */
+.caldera-grid  {
+    text-align: left;
+    /* display: none; */
+}
+.caldera-grid .breadcrumb a {
+    display: none;
+}
+.caldera-grid .breadcrumb {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+.caldera-grid .breadcrumb-text {
+  width: 50%;
+  display: inline-block;
+}
+.caldera-grid .breadcrumb>li {
+    display: inline-block;
+    margin: auto;
+}
+.caldera-grid .breadcrumb>li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    margin: 0 2px;
+}
+.caldera-grid .breadcrumb>li+li:before {
+    display:none;
+}
+.caldera-grid .breadcrumb>.active, .caldera-grid .breadcrumb>.active>a {
+    background-color: var(--primary-color);
+}
+.caldera-grid .breadcrumb-text .breadcrumb>.active, .caldera-grid .breadcrumb-text .breadcrumb>.active>a {
+    background-color: transparent;
+}
+.caldera-grid .breadcrumb-text .breadcrumb {
+    text-align: left;
+}
+.caldera-grid .breadcrumb-text ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+.caldera-grid .breadcrumb-text .breadcrumb>li {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    border:none;
+    border-radius: 0;
+    margin: 0;
+}
+.caldera-grid .breadcrumb-text li {
+    display: none;
+    color: var(--dark);
+}
+.caldera-grid .breadcrumb-text .active a{
+    display: block;
+}
+.caldera-grid .btn-default {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 25px;
+    padding: 8px 22px;
+}
+.entry-content .caldera-grid ol li:last-child {
+    border-bottom: 2px solid var(--primary-color);
+}
+.caldera-grid input[type=checkbox] {
+    -webkit-appearance: none !important;
+    margin-left: -20px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+}
+input[type="checkbox"]:checked:before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+input[type="checkbox"]:focus, .package__btn.package__btn:hover {
+    border-color: var(--primary-color);
+}
+.caldera-grid .checkbox input[type=checkbox], .caldera-grid .checkbox-inline input[type=checkbox], .caldera-grid .radio input[type=radio], .caldera-grid .radio-inline input[type=radio] {
+    margin-left: -20px;
+    margin-right: 10px;
+}
