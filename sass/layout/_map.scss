@@ -1,0 +1,20 @@
+/* MAP STYLES */
+.pin {
+    color: $primary-color;
+}
+.pin #selected {
+    fill: $tertiary-color;
+}
+.popup__title.popup__title {
+    color: $tertiary-color;
+    hyphens: auto;
+}
+.popup__address {
+    color: $dark;
+}
+.leaflet-popup-content-wrapper {
+    border-radius: 0;
+}
+.marker-cluster {
+    color: $white;
+}

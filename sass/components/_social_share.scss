@@ -1,0 +1,15 @@
+/* SOCIAL SHARE LINKS */
+.social-share {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+}
+.social-share span {
+    padding: 0 8px;
+    color: $primary-color;
+}
+.social-share .social_link:hover {
+    color: $tertiary-color;
+}

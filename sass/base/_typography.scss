@@ -1,0 +1,13 @@
+h1, h2, h3, h4, h5, h6 {
+    color: $dark;
+    hyphens: auto;
+}
+
+.entry-title, .archive-title, h1, h2, h3, .card--feature .card__title, ul.categories--widget .category-count, ul.categories--widget .category-text, .primary-menu > ul, .secondary-menu > ul, ul.primary-menu, ul.secondary-menu, .page-title, .search_location input, .package__title, .package__price, .wpjmcl_form_claim_package .job-package .amount, .package__subscription-period, .search-suggestions-menu li a, .search_jobs--frontpage .chosen-container .chosen-results li, .search_jobs--frontpage-facetwp .fs-dropdown .fs-option, .pac-container .pac-item, .chosen-container-multi .chosen-choices li.search-field input[type=text], .chosen-container-single .chosen-single span, .search_jobs--frontpage-facetwp, .search_jobs--frontpage-facetwp input, .search_jobs--frontpage-facetwp select, .search_jobs--frontpage-facetwp .facetwp-filter-title, .header-facet-wrapper .facetwp-facet input, .header-facet-wrapper .facetwp-facet select, .header-facet-wrapper .facetwp-facet label, .site-header .site-title, h2.comments-title, .single:not(.single-job_listing) .entry-meta, .page .entry-meta, .single:not(.single-job_listing) div.sd-social.sd-social > div.sd-content.sd-content ul li > a, .page div.sd-social.sd-social > div.sd-content.sd-content ul li > a, .search_jobs select, .active-tag, .chosen-results, .results, .page-add-listing fieldset:first-child label, .page-job-dashboard fieldset:first-child label, .page-add-listing .chosen-container-multi .chosen-choices li.search-choice, .page-job-dashboard .chosen-container-multi .chosen-choices li.search-choice, .product-content .price, .listing-products__items [itemprop="description"] {
+    font-family: "europa";
+}
+
+.entry-title, .archive-title, h1, h2, h3, .card--feature .card__title, .results, .page-title, .search_location input, .package__title, .package__price, .package__subscription-period, h2.comments-title, .page-add-listing fieldset:first-child label, .product-content .price {
+    font-family: "europa";
+    font-weight: 700;
+}

@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="https://use.typekit.net/iok3dxx.css">
 
 <?php wp_head(); ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/dist/style.css" type="text/css" media="screen" />
 </head>
 <body <?php body_class(); ?> data-mapbox-token="<?php echo pixelgrade_option('mapbox_token', ''); ?>" data-mapbox-style="<?php echo pixelgrade_option('mapbox_style', ''); ?>">
 <div id="page" class="hfeed site">

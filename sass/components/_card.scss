@@ -1,0 +1,37 @@
+
+/* CARD STYLES */
+.card {
+    background: $primary-color;
+    border: none;
+    border-radius: 0;
+    border-top: 3px solid;
+    border-bottom: 1px solid;
+    color: $dark;
+    min-height: 200px;
+
+    &--listing &__title {
+        color: $dark;
+        font-size: 16px;
+        font-weight: 700;
+        hyphens: auto;
+        transition: color 0.5s ease-out;
+    }
+
+    &--listing:hover &__title {
+        color: $tertiary-color;
+    }
+    
+    &--listing &__content {
+        padding-top: 11px;
+    }
+
+    &__content {
+        font-size: 14px;
+        padding: 4px 10px;
+    }
+
+    &__address {
+        color: $dark;
+    }
+
+}

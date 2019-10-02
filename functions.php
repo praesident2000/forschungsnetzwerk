@@ -53,11 +53,11 @@ function listable_child_enqueue_styles() {
 
 	// Here we are adding the child style.css while still retaining
 	// all of the parents assets (style.css, JS files, etc)
-	wp_enqueue_style( 'listable-child-style',
-		get_stylesheet_directory_uri() . '/style.css',
-		array('listable-style'), //make sure the the child's style.css comes after the parents so you can overwrite rules
-		114
-	);
+	// wp_enqueue_style( 'listable-child-style',
+	// 	get_stylesheet_directory_uri() . '/style.css',
+	// 	array('listable-style'), //make sure the the child's style.css comes after the parents so you can overwrite rules
+	// 	114
+	// );
 	wp_enqueue_style( 'cf-custom',
 		get_stylesheet_directory_uri() . '/assets/css/cf-custom.css',
 		array(), //make sure the the child's style.css comes after the parents so you can overwrite rules
